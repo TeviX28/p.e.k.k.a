@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+  <form>
+    <div>
+      <label for="name">Your email</label><br />
+      <input type="text" name="name" id="name" placeholder="example1991@something.com">
+    <div>
+        <label for="name">Your name</label><br />
+        <input type="text" name="name" id="name" placeholder="bla bla bla blu blu blu be be be">
+    
+    </div>
+    <div>
+     I am<br />
+      <input type="radio" name="like" value="cats" id="likeCats"><label for="likeCats">Newbie</label>
+      <input type="radio" name="like" value="dogs" id="likeDogs"><label for="likeDogs">Listener</label>
+      <input type="radio" name="like" value="dogs" id="likeDogs"><label for="likeDogs">Fan</label>
+    </div>
+    <div>
+      <label for="education">How did you hear about as?</label><br />
+      <select name="education" id="education">
+        <option value="none">Friens</option>
+        <option value="school">Radio</option>
+        <option value="univer">News</option>
+        <option value="other">Else</option>
+      </select>
+    </div>
+    <div>
+      <label for="agree">I agrre claiming news from 1991.com</label>
+      <input type="checkbox" name="agree" id="agree" value="1">
+    </div>
+    <div>
+      <button type="reset">Clear</button>
+      <button type="submit">Enter</button>
+    </div>
+  </form>
+  <script src="forms.js"></script>
+</body>
+</html>
